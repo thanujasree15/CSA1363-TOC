@@ -1,0 +1,307 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {466 311}
+	}
+	state {
+		coord {689 273}
+	}
+	state {
+		coord {907 268}
+	}
+	state {
+		coord {1130 267}
+	}
+	state {
+		coord {700 470}
+	}
+	state {
+		coord {910 460}
+	}
+	state {
+		coord {1139 444}
+	}
+	state {
+		coord {368 478}
+	}
+	state {
+		coord {406 110}
+	}
+	state {
+		coord {585 82}
+	}
+	state {
+		coord {782 57}
+	}
+	edge 0 1 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 1 2 {
+		transits {}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	edge 2 3 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 0 4 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {R}
+		output {b}
+	}
+	edge 4 5 {
+		transits {}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	edge 5 6 {
+		transits {}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	edge 6 0 {
+		transits {}
+		offset {1.0741281553746806}
+		direction {R}
+	}
+	edge 0 7 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	edge 0 8 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 8 9 {
+		transits {}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	edge 8 0 {
+		transits {d}
+		offset {0.5235987755982988}
+		direction {R}
+		output {d}
+	}
+	edge 9 10 {
+		transits {d}
+		offset {0.5235987755982988}
+		direction {R}
+		output {d}
+	}
+	edge 10 9 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {d}
+	}
+	edge 0 3 {
+		transits {d}
+		offset {0.7898918174814589}
+		direction {R}
+		output {c}
+	}
+	edge 8 8 {
+		transits {b}
+		offset {2.356194490192345}
+		direction {R}
+		output {b}
+	}
+	edge 8 8 {
+		transits {c}
+		offset {0.10673567264913564}
+		direction {R}
+		output {d}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.6814535479687924}
+		direction {R}
+		output {a}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {-1.35970299357215}
+		direction {R}
+		output {b}
+	}
+	edge 2 2 {
+		transits {c}
+		offset {1.6035714711989726}
+		direction {R}
+		output {c}
+	}
+	edge 2 2 {
+		transits {d}
+		offset {-1.663983588563776}
+		direction {R}
+		output {d}
+	}
+	edge 3 3 {
+		transits {a}
+		offset {2.356194490192345}
+		direction {R}
+		output {a}
+	}
+	edge 3 3 {
+		transits {_}
+		offset {0.7096811240570962}
+		direction {R}
+		output {_}
+	}
+	edge 3 3 {
+		transits {b}
+		offset {-0.698240888843165}
+		direction {R}
+		output {b}
+	}
+	edge 3 3 {
+		transits {d}
+		offset {-2.2582430655495678}
+		direction {R}
+		output {d}
+	}
+	edge 6 6 {
+		transits {a}
+		offset {2.356194490192345}
+		direction {R}
+		output {a}
+	}
+	edge 6 6 {
+		transits {b}
+		offset {0.7419472680059175}
+		direction {R}
+		output {d}
+	}
+	edge 6 6 {
+		transits {_}
+		offset {-0.7345944593392266}
+		direction {R}
+		output {_}
+	}
+	edge 6 6 {
+		transits {c}
+		offset {-2.356194490192345}
+		direction {R}
+		output {c}
+	}
+	edge 5 5 {
+		transits {}
+		offset {2.356194490192345}
+		direction {R}
+	}
+	edge 5 5 {
+		transits {}
+		offset {-1.776191715984664}
+		direction {R}
+	}
+	edge 4 4 {
+		transits {b}
+		offset {2.356194490192345}
+		direction {R}
+		output {d}
+	}
+	edge 4 4 {
+		transits {}
+		offset {-1.0689728299935426}
+		direction {R}
+	}
+	label {
+		text {q0}
+		font {SansSerif 12 -}
+		coord {458 311}
+	}
+	label {
+		text {q1}
+		font {SansSerif 12 -}
+		coord {693 270}
+	}
+	label {
+		text {q2}
+		font {SansSerif 12 -}
+		coord {902 268}
+	}
+	label {
+		text {q3}
+		font {SansSerif 12 -}
+		coord {1136 268}
+	}
+	label {
+		text {q4}
+		font {SansSerif 12 -}
+		coord {402 108}
+	}
+	label {
+		text {q5}
+		font {SansSerif 12 -}
+		coord {579 83}
+	}
+	label {
+		text {q6}
+		font {SansSerif 12 -}
+		coord {776 56}
+	}
+	label {
+		text {q8}
+		font {SansSerif 12 -}
+		coord {367 474}
+	}
+	label {
+		text {q9}
+		font {SansSerif 12 -}
+		coord {694 470}
+	}
+	label {
+		text {q10}
+		font {SansSerif 12 -}
+		coord {910 456}
+	}
+	label {
+		text {q11}
+		font {SansSerif 12 -}
+		coord {1135 448}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {696 332}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1152 248}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1186 488}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1324 603}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {535 295}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {666 34}
+	}
+}
