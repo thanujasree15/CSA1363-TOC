@@ -1,0 +1,156 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {483 280}
+	}
+	state {
+		coord {735 280}
+	}
+	state {
+		coord {949 280}
+	}
+	state {
+		coord {1162 273}
+	}
+	state {
+		final {yes}
+		coord {739 486}
+	}
+	edge 0 0 {
+		transits {b}
+		offset {2.356194490192345}
+		direction {R}
+		output {b}
+	}
+	edge 0 0 {
+		transits {c}
+		offset {-1.3503025654282248}
+		direction {R}
+		output {c}
+	}
+	edge 0 1 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	edge 1 1 {
+		transits {c}
+		offset {-0.3985224456664202}
+		direction {R}
+		output {c}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.3732913124401418}
+		direction {L}
+		output {c}
+	}
+	edge 2 2 {
+		transits {c}
+		offset {1.6594522086623342}
+		direction {L}
+		output {c}
+	}
+	edge 2 3 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {c}
+	}
+	edge 3 3 {
+		transits {c}
+		offset {1.3583643062861546}
+		direction {L}
+		output {c}
+	}
+	edge 1 4 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 3 0 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	label {
+		text {q0}
+		font {SansSerif 12 -}
+		coord {482 287}
+	}
+	label {
+		text {q1}
+		font {SansSerif 12 -}
+		coord {723 279}
+	}
+	label {
+		text {q2}
+		font {SansSerif 12 -}
+		coord {950 278}
+	}
+	label {
+		text {q3}
+		font {SansSerif 12 -}
+		coord {1150 267}
+	}
+	label {
+		text {q4}
+		font {SansSerif 12 -}
+		coord {745 486}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {997 488}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {852 243}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {840 242}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {840 244}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {851 244}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {850 240}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {841 240}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {841 240}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {733 183}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {841 241}
+	}
+}
